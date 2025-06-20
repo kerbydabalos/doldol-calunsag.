@@ -1,0 +1,183 @@
+<!-- REMINDER SA MGA MAG INSERT NG PICTURE, VIDEOS AT INFORMATION -->
+ <!-- TIGNAN NYO NG MABUTI YUNG MGA ILALAGAY AT MGA TATANGGALIN NYO MARAMING SALAMAT -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TTS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+      <nav class="nav-container">
+                      <a href="#backtomainpage" class="nav-link">Back to main page</a>
+          <a href="#home" class="logo">
+              <img src="logo.png" alt="Logo" class="logo-img">
+              <span class="logo-text">Tukuran Tourist Spots</span>
+            </a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#destination" class="nav-link">Facilities</a>
+            </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#developers" class="nav-link">Developers</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-slideshow">
+                <!--Arrange your welcome entrance photo here -->
+                <div class="hero-slide active" style="background-image: url('entrance1.jpg')"></div> <!-- Add more slides as needed -->
+            </div>
+            <div class="hero-content">
+                <h1>JASMINE BEACH </h1> <!-- Change the name of your beach here -->
+                <div class="typing-text">
+                    <span id="typing-output" class="typing-animation"></span>
+                </div>
+            </div>
+        </section>
+        <!-- PUT YOUR FACILITIES HERE -->
+        <section id="destination" class="featured-destinations">
+            <h2 class="section-title"><span>Facilities</span></h2>
+            
+            <div class="destination-item">
+                <div class="destination-image">
+                    <div class="slideshow-container" data-slideshow="1">
+                        <div class="slide active" style="background-image: url('smg1.jpeg')"></div> <!-- Add your facilities picture as needed -->
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>MODERN BEACHFRONT VILLA</h3>
+                    <p>A two-storey villa with sleek glass windows, a wooden accent roof, and a wide balcony. This spacious beachfront home offers comfortable accommodations for families or groups. Surrounded by nature, it’s perfect for relaxing or enjoying ocean views from the balcony.</p>
+                </div>
+            </div>
+        
+                        <div class="destination-item">
+                <div class="destination-image">
+                    <div class="slideshow-container" data-slideshow="1">
+                        <div class="slide active" style="background-image: url('smg2.jpeg')"></div> <!-- Add your facilities picture as needed -->
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>WATER SPORTS & BOAT LAUNCH BAY</h3> <!-- Change the name of your facility here -->
+                    <p>Equipped with a high-powered speedboat labeled “Men At Sea SPORTS” and inflatable rides, this section supports various sea activities. Boats are safely stored under a tarp canopy near the beachfront for quick access and launching.</p> <!-- Change the information of your facility here -->
+                </div>
+            </div>
+                        <div class="destination-item">
+                <div class="destination-image">
+                    <div class="slideshow-container" data-slideshow="1">
+                        <div class="slide active" style="background-image: url('pic3.jpeg')"></div> <!-- Add your facilities picture as needed -->
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>BEACHSIDE COOKING  AREA</h3> <!-- Change the name of your facility here -->
+                    <p>A shaded, open-air shelter with built-in concrete tables and benches. Perfect for preparing meals and enjoying food with family and friends. Set under large trees, this rustic area is cool, breezy, and ideal for casual gatherings or reunions.</p> <!-- Change the information of your facility here -->
+                </div>
+            </div>
+                        <div class="destination-item">
+                <div class="destination-image">
+                    <div class="slideshow-container" data-slideshow="1">
+                        <div class="slide active" style="background-image: url('smg.jpg')"></div> <!-- Add your facilities picture as needed -->
+                    </div>
+                </div>
+                <div class="destination-content">
+                    <h3>COTTAGE</h3> <!-- Change the name of your facility here -->
+                    <p>This is only ₱450 to ₱500 and is perfect for families who want an affordable and relaxing getaway.</p> <!-- Change the information of your facility here -->
+                </div>
+            </div>
+
+            
+            
+            <!-- Gallery Section -->
+        <section id="gallery" class="featured-destinations">
+            <h2 class="section-title"><span>Gallery</span></h2>
+
+        <div class="gallery">
+            <img src="pic1.jpeg" alt="Image 1"> <!-- Change the image source to your own images -->
+            <img src="pic2.jpeg" alt="Image 2"> <!-- Change the image source to your own images -->
+            <img src="pic3.jpeg" alt="Image 3"> <!-- Change the image source to your own images -->
+            <img src="pic4.jpeg" alt="Image 4"> <!-- Change the image source to your own images -->
+            <img src="landscape3.jpg" alt="Image 5"> <!-- Change the image source to your own images -->
+            <img src="landscape.jpg" alt="Image 6"> <!-- Change the image source to your own images -->
+            <img src="landscape2.jpg" alt="Image 7"> <!-- Change the image source to your own images -->
+            <img src="landscape4.jpg" alt="Image 8"> <!-- Change the image source to your own images -->
+            <!-- Add more as needed -->
+            <!-- delete if not needed-->
+        </div>
+    </section>
+
+            <!-- Modal -->
+        <div class="modal" id="modal">
+    <span class="close" id="closeBtn">&times;</span>
+    <button class="modal-nav" id="prevBtn">&#10094;</button>
+    <img id="modalImg" src="" alt="Full View">
+    <button class="modal-nav" id="nextBtn">&#10095;</button>
+        </div>
+ 
+
+  <!-- Developers Section -->
+        <section id="developers" class="developers">
+            <h2 class="section-title"><span>Developers</span></h2>
+            <div class="developers-grid">
+                <div class="developer-card">
+                    <div class="developer-video">
+                        <img src="img1.jpg" alt="Img" class="developer-video"> <!-- Put your Own photo here-->
+                    </div>
+                    <div class="developer-name">Eric Doldol</div> <!-- Ilagay nyo pangalan nyo dito -->
+                    <div style="color: transparent;" class="developer-role"></div>
+                    <div class="developer-bio">Leader</div> <!-- Ilagay nyo role nyo dito kung ano kayo sa grupo -->
+                </div>
+                <div class="developer-card">
+                    <div class="developer-video">
+                        <img src="img2.jpg" alt="Img" class="developer-video"> <!-- Put your Own photo here-->
+                    </div>
+                    <div class="developer-name">Jericho Calunsag</div> <!-- Ilagay nyo pangalan nyo dito -->
+                    <div style="color: transparent;" class="developer-role"></div>
+                    <div class="developer-bio">Photographer</div>  <!-- Ilagay nyo role nyo dito kung ano kayo sa grupo -->
+                </div>
+                </div>
+            </div>
+        </section>
+  
+        <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Tukuran Tourist Spots</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destination">Facilities</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#developers">Developers</a></li>
+                </ul>
+            </div>
+  <div class="footer-section">
+    <h4>Follow Us</h4>
+        <div class="social-buttons">
+            <a href="https://www.facebook.com/profile.php?id=100064160287007" class="social-btn facebook">Facebook</a> <!-- Change the link to your Facebook page -->
+        </div>
+  </div>
+    </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tukuran Tourist Spots. All rights reserved. Discover your outing.</p> <!--WALA NA KAYONG BABAGUHIN DITO-->
+        </div>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
