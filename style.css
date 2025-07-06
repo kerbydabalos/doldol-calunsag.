@@ -2,36 +2,6 @@
    - KUNG MASIRA NYO TONG CODE WALA AKONG PANANAGUTAN SA CODE NA NASIRA NINYO
    - BE RESPONSIBLE SA MGA GAGAWIN NYO MARAMING SALAMAT !! */
 
-/* FONTS !!! */
-@font-face {
-    font-family: 'The Farmer Textured';
-    src: url('TheFarmerTexturedRegular.woff2') format('woff2'),
-        url('TheFarmerTexturedRegular.woff') format('woff'),
-        url('TheFarmerTexturedRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Myfont';
-    src: url('beachday.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Myfont1';
-    src: url('Naluka.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
@@ -358,6 +328,16 @@ body {
     z-index: 1;
     max-width: 800px;
     padding: 0 2rem;
+   
+  animation: fadeOut 1s ease 5s forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 }
 
 .hero h1 {
